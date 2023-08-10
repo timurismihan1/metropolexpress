@@ -1,49 +1,260 @@
-﻿<!DOCTYPE html>
+﻿@using evdeneveturkiye.CompanyParams;
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - metropolexpress</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/metropolexpress.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Metropol Express Evden Eve, Şehirler Arası Nakliyat Hizmeti">
+    <meta name="keywords" content="@(CompanyParams.MetaTags)">
+    <meta name="author" content="@(CompanyParams.CompanyName)">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metropol Express || Evden Eve şehirler Arası Nakliyat</title>
+
+    <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
+
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="~/assets/css/flaticon.css">
+
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">metropolexpress</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+
+    <div class="body-overlay" id="body-overlay"></div>
+    <div class="search-popup" id="search-popup">
+        <form action="index.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button class="close-btn border-none"><i class="fas fa-times"></i></button>
+        </form>
+    </div>
+    <div class="header-style-01">
+        <div class="topbar-area style-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="topbar-inner">
+                            <div class="left-contnet">
+                                <ul class="info-items">
+                                    <li><a href="tel:@CompanyParams.PhoneIntagrated"><i class="flaticon-phone"></i> @CompanyParams.Phone</a></li>
+                                    <li><a href="/cdn-cgi/l/email-protection#2e474048416e6f5a5a415c49434f4742004d4143"><i class="flaticon-mail"></i> <span class="__cf_email__" data-cfemail="f29b9c949db2b386869d80959f939b9edc919d9f">@CompanyParams.Email</span></a></li>
+                                    <li>
+                                        <a href="/cdn-cgi/l/email-protection#4f262129200f0e3b3b203d28222e2623612c2022">
+                                            <i class="flaticon-clock"></i> Ankara
+                                            Antalya
+                                            İstanbul
+                                            İzmir
+                                            Bursa
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right-contnet">
+                                <div class="social-link">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-area has-topbar navbar-expand-lg nav-style-02">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo-wrapper">
+                        <a href="index.html" class="logo">
+                            <img src="~/assets/img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
+                    <ul class="navbar-nav">
+                        <li class="menu-item-has-children current-menu-item">
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home 01</a></li>
+                                <li><a href="index-2.html">Home 02</a></li>
+                                <li><a href="index-3.html">Home 03</a></li>
+                                <li><a href="index-4.html">Home 04</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li><a href="about.html">About</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Services</a>
+                            <ul class="sub-menu">
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="services-details.html">Services Details</a></li>
+                            </ul>
                         </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
+                </div>
+                <div class="nav-right-content">
+                    <div class="icon-part">
+                        <ul>
+                            <li id="search">
+                                <a href="#">
+                                    <i class="flaticon-search-1
+                                "></i>
+                                </a>
+                            </li>
+                            <li class="cart"><a href="#"><i class="flaticon-shopping-cart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-wrapper">
+                        <a href="#" class="request-btn">Request a quote</a>
+                    </div>
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+@RenderBody()
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - metropolexpress - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+
+        <footer class="footer-area">
+            <div class="footer-top padding-top-115 padding-bottom-50">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget">
+                                <div class="about_us_widget">
+                                    <a href="index.html" class="footer-logo"> <img src="~/assets/img/logo.png" alt="footer logo"></a>
+                                    <p>
+                                        We are able to guarantee a very high level of satisfaction for our clients. Pharetra libero non facilisis to your company & family.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget widget_nav_menu">
+                                <h4 class="widget-title">Our services</h4>
+                                <ul>
+                                    <li><a href="#">Warhouse</a></li>
+                                    <li><a href="#">Air Fright Soultions for all</a></li>
+                                    <li><a href="#">Sea Fright solutions & Catering</a></li>
+                                    <li><a href="#">Storage</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget widget_nav_menu">
+                                <h4 class="widget-title">our support</h4>
+                                <ul>
+                                    <li><a href="#">Privacy & Policy</a></li>
+                                    <li><a href="#">FAQS</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget ">
+                                <h4 class="widget-title">Contact us</h4>
+                                <ul class="contact_info_list">
+                                    <li class="single-info-item">
+                                        <div class="details">
+                                            Fifth Avenue , Broadway, New York
+                                        </div>
+                                    </li>
+                                    <li class="single-info-item">
+                                        <div class="details">
+                                            +3 123 456 789
+                                        </div>
+                                    </li>
+                                    <li class="single-info-item">
+                                        <div class="details">
+                                            <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2c45424a436c5543595e414d4540024f4341">[email&#160;protected]</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-area-inner">
+                                &copy; Copyright 2020 Additrans All rights reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="back-to-top">
+            <span class="back-top"><i class="fa fa-angle-up"></i></span>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+
+        <div class="preloader" id="preloader">
+            <div class="preloader-inner">
+                <div class="cancel-preloader">
+                    <a href="#">Cancel Preloader</a>
+                </div>
+                <div class="TruckLoader">
+                    <div class="TruckLoader-cab"></div>
+                    <div class="TruckLoader-smoke"></div>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+
+        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="~/assets/js/jquery-2.2.4.min.js"></script>
+
+        <script src="~/assets/js/popper.min.js"></script>
+
+        <script src="~/assets/js/bootstrap.min.js"></script>
+
+        <script src="~/assets/js/jquery.magnific-popup.js"></script>
+
+        <script src="~/assets/js/wow.min.js"></script>
+
+        <script src="~/assets/js/owl.carousel.min.js"></script>
+
+        <script src="~/assets/js/waypoints.min.js"></script>
+
+        <script src="~/assets/js/jquery.counterup.min.js"></script>
+
+        <script src="~/assets/js/imagesloaded.pkgd.min.js"></script>
+
+        <script src="~/assets/js/isotope.pkgd.min.js"></script>
+
+        <script src="~/assets/js/main.js"></script>
 </body>
 </html>
