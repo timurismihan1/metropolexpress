@@ -1,0 +1,7 @@
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\metropolexpress.exe
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\metropolexpress.dll
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\metropolexpress.deps.json
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\metropolexpress.runtimeconfig.json
+C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\PubTmp\Out\metropolexpress.pdb

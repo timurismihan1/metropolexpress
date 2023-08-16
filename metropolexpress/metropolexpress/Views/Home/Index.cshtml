@@ -1,7 +1,10 @@
-﻿@{
-    ViewData["Title"] = "Ana Sayfa";
-}
+﻿@using evdeneveturkiye.CompanyParams;
 
+@section Title{
+    <title>
+        Metropol Express || Metropol Express Evden Eve Taşımacılık
+    </title>
+    }
 <div class="header-slider-one">
     <div class="header-area header-bg" style="background-image:url(assets/img/header-slider/02.png);">
         <div class="container">
@@ -9,10 +12,9 @@
                 <div class="col-lg-8">
                     <div class="header-inner">
 
-                        <h1 class="title">world most Fastest secure delivery service </h1>
+                        <h1 class="title">Metropol Express Hizmetlerinden Yararlanın </h1>
                         <div class="btn-wrapper  desktop-left padding-top-30">
-                            <a href="#" class="boxed-btn">Learn More</a>
-                            <a href="#" class="boxed-btn blank">Contact Us</a>
+                            <a href="/iletisim" class="boxed-btn blank">İletişime Geç</a>
                         </div>
                     </div>
 
@@ -20,16 +22,15 @@
             </div>
         </div>
     </div>
-    <div class="header-area header-bg" style="background-image:url(assets/img/header-slider/03.png);">
+    <div class="header-area header-bg" style="background-image:url(assets/img/header-slider/02.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="header-inner">
 
-                        <h1 class="title">world most Fastest secure delivery service </h1>
+                        <h1 class="title">Kurumsal Bir Nakliyat Hizmeti İster Misiniz? </h1>
                         <div class="btn-wrapper  desktop-left padding-top-30">
-                            <a href="#" class="boxed-btn">Learn More</a>
-                            <a href="#" class="boxed-btn blank">Contact Us</a>
+                            <a href="/hakkimizda" class="boxed-btn blank">Hakkımızda</a>
                         </div>
                     </div>
 
@@ -43,19 +44,22 @@
         <div class="row">
             <div class="col-lg-5 col-md-12">
                 <div class="left-content-area">
-                    <div class="shipping-area">
+                    <div class="shipping-area" id="serviceRequestSection">
                         <div class="section-title white">
-                            <h4 class="title">Track your shipping</h4>
-                            <p>* Please key the track id to getto get your shipping location</p>
+                            <h4 class="title">Nakliye Hizmeti Alın</h4>
+                            <p>Bilgileri doldurarak anında nakliye hizmeti alın</p>
                         </div>
-                        <form action="index-3.html" class="shipping-form margin-top-60">
+                        <form id="serviceRequestForm" class="shipping-form margin-top-60">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter track id">
+                                <input type="text" class="form-control" name="FullName" placeholder="İsim-soyisim">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter order id">
+                                <input type="text" class="form-control" name="Email" placeholder="Email" />
                             </div>
-                            <button type="submit" class="submit-btn">Track Now</button>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="Phone" placeholder="Telefon" />
+                            </div>
+                            <button type="button" class="submit-btn" onclick="SendServiceRequest()">Nakliye Hizmeti İste!</button>
                         </form>
                     </div>
                 </div>
@@ -70,9 +74,9 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="title">
-                                        24/7 support
+                                        Nakliyeye İhtiyacının Olduğu Her anda
                                     </h4>
-                                    <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
+                                    <p>Bizlete iletişim adreslerimizden ulaşabilir dilediğiniz anda sigortalı ve güvenli nakliye hizmeti alabilirsiniz. </p>
                                 </div>
                             </div>
                         </div>
@@ -83,9 +87,9 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="title">
-                                        Global shipping
+                                        Şehir Ayırt Etmeden
                                     </h4>
-                                    <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
+                                    <p>Şehirler arası nakliyatta güvelinir ve  pratik nakliyat çözümleri. </p>
                                 </div>
                             </div>
                         </div>
@@ -96,9 +100,9 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="title">
-                                        On time delivery
+                                       Tam Zamanında
                                     </h4>
-                                    <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
+                                    <p> Ev veya ofisinizi istediğniiz süre zarfında hızlıca taşıyoruz. </p>
                                 </div>
                             </div>
                         </div>
@@ -109,9 +113,9 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="title">
-                                        Our Expart Team
+                                        Uzman Kadro
                                     </h4>
-                                    <p>Treacherously far condescending invidiously menially and constitutionally into capriciously. </p>
+                                    <p>Son teknolojiyi kullanarak uzman kadrosuyla müşterilerine profosyonel hizmet sunan bir nakliyat şirketi. </p>
                                 </div>
                             </div>
                         </div>
@@ -121,16 +125,163 @@
         </div>
     </div>
 </div>
+<section class="agency_featured_area bg_color">
+    <div class="container">
+        <h2 class="f_size_30 f_600 t_color3 l_height40 text-center wow fadeInUp" data-wow-delay="0.3s">Metropol Express Nakliyat Size Ne Tür <br>Hizmetler Sunar</h2>
+        <div class="features_info">
+            <img class="dot_img" src="~/assets/img/dot.png" alt="Hizmet detayları">
+            <div class="row agency_featured_item flex-row-reverse">
+                <div class="col-lg-6">
+                    <div class="agency_featured_img text-right wow fadeInRight" data-wow-delay="0.4s">
+                        <img src="~/assets/img/metropol-express-evden-eve-tasimacilik-firmalari.png" alt="Hizmet detayları">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="agency_featured_content pr_70 pl_70 wow fadeInLeft" data-wow-delay="0.6s">
+                        <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
+                        <h3>Evden Eve Taşımacılık Firmaları:</h3>
+                        <p><b>Metropol Express Nakliyat</b> Taşımacılık hizmet sunar depolama ekipleriyle birlikte çalışır ve eşyalarınızı güvenli bir şekilde taşır.Ayrıca, uygun fiyatlı taşıma seçenekleri sunarak <b>bütçe dostu</b> çözümler sağlar.</p>
+                        <p><b>Metropol Express Nakliyat</b> Eşya paketleme ve ambalajlama hizmeti sunar , evden eve giderken önemli bir adımdır. Bu süreç, eşyaların güvenli bir şekilde taşınması için büyük önem taşımaktadır. </p>
+                        <p><b>Metropol Express Nakliyat</b>, depolama ekipleri sayesinde eşyaları paketler ve  kaliteli ambalaj malzemeleri kullanarak koruma sağlarlar. Bu sayede, eşyaların taşınması sırasında hasar görme riski en aza indirilir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row agency_featured_item agency_featured_item_two">
+                <div class="col-lg-6">
+                    <div class="agency_featured_img text-right wow fadeInLeft" data-wow-delay="0.3s">
+                        <img src="~/assets/img/metropol-express-sigortali-tasimacilik.png" alt="Sigortalı tasimaclik">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="agency_featured_content pl_100 wow fadeInRight" data-wow-delay="0.5s" style="margin-left:30px;">
+                        <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
+                        <h3>Sigortalı Taşımacılık:</h3>
+                        <p>Taşınma sırasında eşyaların hasar görme veya kaybolması gibi olumsuz durumlarla karşılaşabilirsiniz. Bu nedenle, sigortalı taşımacılık hizmeti sunan firmaları tercih etmek önemlidir.   </p>
+                        <p><b>Metropol Express Nakliyat</b> Sigortalı taşımacılık, değerli eşyaların taşınma süreci olası hasarlara karşı korumayı sağlar. Taşıma sırasında meydana gelen herhangi bir hasar durumunda, Metropol Express Nakliyat tarafından verilen sigorta poliçesi sayesinde maddi kayıplarınız tazmin edilir.(Faturanızı istemeyi unutmayın )faturasız bir taşıma gerçekleştiğinde sigorta hasarınızı karşılamaz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row agency_featured_item flex-row-reverse">
+                <div class="col-lg-6">
+                    <div class="agency_featured_img text-right wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="~/assets/img/metropol-express-sehirler-arasi-tasimacilik.png" alt="Hizmet detayları">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="agency_featured_content pr_70 pl_70 wow fadeInLeft" data-wow-delay="0.5s">
+                        <div class="dot"><span class="dot1"></span><span class="dot2"></span></div>
+                        <h3>Şehirlerarası Taşımacılık:</h3>
+                        <p>Farklı şehirler arasında taşıma maliyetleri olan kişiler için şehirlerarası taşımacılık hizmetleri oldukça önemlidir. </p>
+                        <p>İstanbul'dan Ankara'ya, İzmir'den Bursa'ya gibi uzun mesafeli taşımalarda, profesyonel <b>Metropol Express Nakliyat</b> güvenilir bir seçenek sunar. </p>
+                        <p>Metropol Express Nakliyat, taşıma işlemlerini planlamak, eşyaları güvenli bir şekilde taşıma ve taşıma sırasında zamanında hizmet sağlama konusunda 50 yıllık deneyime sahiptir.</p>
+                        <a href="iletisim" class="btn btn-dark agency_banner_btn mt_30">Sizi Dinliyoruz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dot middle_dot" style="margin-left:30px;"><span class="dot1"></span><span class="dot2"></span></div>
+        </div>
+    </div>
+</section>
+<section class="prototype_service_area">
+    <div class="container custom_container">
+        <div class="sec_title text-center mb_70 wow fadeInUp" data-wow-delay="0.3s" style="margin-left:150px;">
+            <h2 class=" f_size_30 l_height50 f_600 t_color3">Sonuç:</h2>
+            <p class="f_400 f_size_16 mb-0">Evden eve taşımacılık hizmeti, taşımayı kolaylaştıran ve stresi azaltan bir çözümdür. <b>Metropol Express Nakliyat</b> profesyonel eşya paketleme ve ambalajlama hizmeti, sigortalı ulaşım seçenekleri ve şehirlerarası ulaşım imkanı gibi avantajları sunarak ulaşmalarını sağlarlar. </p>
+            <p class="f_400 f_size_16 mb-0">Taşınma sürecinde zorluk yaşamamak ve eşyalarınızın güvende olmasını sağlamak için evden eve taşımacılık hizmetlerinden yararlanabilirsiniz.</p>
+        </div>
 
-<section class="our-provide-area padding-top-80 padding-bottom-90">
+    </div>
+</section>
+
+<div class="header-bottom-area padding-top-100 padding-bottom-120">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title b-top desktop-center padding-top-25 margin-bottom-55">
                     <h2 class="title">
-                        WE PROVIDE ALL LOGICTIC SERVICES
+                        Evden Eve Taşımacılık: Hızlı, Güvenilir ve Uygun Fiyatlı Nakliyat Hizmetleri
                     </h2>
-                    <p>Treacherously far so late have immense condescending best logistic service the market all over the world logistic service .</p>
+                    <p>Taşınma süreci, birçok detayı içeren ve stresli bir süreç olabilir. Ancak, evden eve taşımacılık hizmetleri, bu süreci kolaylaştırarak insanlara büyük bir kolaylık sağlamaktadır. Evden eve ulaşımda Metropol Express profesyonel hizmetler sunmaktadır.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="single-header-bottom-item style-01">
+                            <div class="content">
+                                <h4 class="title">
+                                    Evden Eve
+                                </h4>
+                                <p>Evden eve taşımacılık hizmeti, Metropol Express ’sunduğu bir hizmettir. Bu hizmeti veren Metropol Express , uzman taşıma ekipleriyle birlikte sonunda hızlı ve güvenilir bir nakliye deneyimi sunar. İstanbul, Ankara, İzmir gibi büyük şehirlerdeki nakliye firmaları, geniş bir müşteri kitlesine hitap etmektedir.</p>
+                            </div>
+                            <div class="icon">
+                                <i class="flaticon-delivery-truck"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="single-header-bottom-item style-01">
+                            <div class="content">
+                                <h4 class="title">
+                                    Uygun Fiyat
+                                </h4>
+                                <p>Metropol Express uygun fiyatlı evden eve taşımacılık hizmeti verir. Metropol Express uygun fiyatlı ve kaliteli hizmet sunan kaliteli nakliye firmasıdır. Metropol Express taşıma öncesi ve sonrası destek sağlayarak taşıma geçişindeki stresi gidermeye yardımcı olur.</p>
+                            </div>
+                            <div class="icon">
+                                <i class="flaticon-information"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="why-us-img bg-image" style="background-image: url(assets/img/why-us/01.png);">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="single-header-bottom-item">
+                            <div class="icon">
+                                <i class="flaticon-open-box"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">
+                                   Paketleme
+                                </h4>
+                                <p>Evden eve nakliyat yolunda eşya paketleme ve ambalajlama önemli bir adımdır. Metropol Express, depolama ve eğitimli personelleri sayesinde eşyaların eşyalarını güvenli bir şekilde paketler ve ambalajlar. Ayrıca, taşıma sırasındaki eşyaların hasar görmemesi için sigortalı taşıma hizmeti de sunulmaktadır.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="single-header-bottom-item">
+                            <div class="icon">
+                                <i class="flaticon-tracking-1"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="title">
+                                   Şehirlerarası Taşımacılık
+                                </h4>
+                                <p>Şehirlerarası taşımacılık ihtiyaçları olanlar için de evden eve nakliyat hizmeti büyük bir kullanım ömrüne sahiptir. İstanbul'dan Ankara'ya, İzmir'den Bursa'ya gibi farklı şehirlere taşınmak isteyenler, güvenilir ve hızlı nakliyat bulunduğu yerden destek alabilirler. Metropol Express taşıma kamyonetleriyle eşyaları almakta ve muhafaza etmekte eşya montaj ve demontaj hizmeti de sunmaktadır. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="our-provide-area padding-bottom-90">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title b-top desktop-center padding-top-25 margin-bottom-55">
+                    <h2 class="title">
+                        Metropol Express Nakliyat Olarak Sunduğumuz Hizmetlerin Sadece Bir Kısmı
+                    </h2>
+                    <p>Metropol Express Nakliyat, hızlı güvenilir, ve pratik çözümleri sunarak taşımayı kolaylaştırmaktadır.</p>
                 </div>
             </div>
         </div>
@@ -142,14 +293,14 @@
                     </div>
                     <div class="content-wrapper">
                         <div class="icon">
-                            <i class="flaticon-air-freight"></i>
+                            <i class="flaticon-defense"></i>
                         </div>
                         <div class="content">
                             <a href="">
-                                <h4 class="title">Air Fright</h4>
+                                <h4 class="title">Eşya Depolama</h4>
                             </a>
-                            <p>Treacherously far so late have immense condescending.</p>
-                            <a href="#" class="readmore">Read More<i class="fas fa-angle-double-right"></i></a>
+                            <p><b>Eşya depolama hizmetleri</b>, değerli eşyalarınızı güvenli ve kontrol altında tutmanızı sağlayan önemli bir çözümdür.</p>
+                            <a href="/esya-depolama" class="readmore">Daha Fazla<i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -165,10 +316,10 @@
                         </div>
                         <div class="content">
                             <a href="">
-                                <h4 class="title">road fright</h4>
+                                <h4 class="title">Evden Eve Taşımacılık:</h4>
                             </a>
-                            <p>Treacherously far so late have immense condescending.</p>
-                            <a href="#" class="readmore">Read More<i class="fas fa-angle-double-right"></i></a>
+                            <p><b>Metropol Express Nakliyat</b>, hızlı güvenilir, ve pratik çözümleri sunarak taşımayı kolaylaştırmaktadır. </p>
+                            <a href="/evden-eve-tasima" class="readmore">Daha Fazla<i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -184,10 +335,10 @@
                         </div>
                         <div class="content">
                             <a href="">
-                                <h4 class="title">warehouse</h4>
+                                <h4 class="title">Özel Ambalajlama </h4>
                             </a>
-                            <p>Treacherously far so late have immense condescending.</p>
-                            <a href="#" class="readmore">Read More<i class="fas fa-angle-double-right"></i></a>
+                            <p>Nakliye süreci, eşyalarınızı güvenli bir şekilde taşırken ambalajlama ve mobilya kurulumları gibi önemli yürüyüşler içerir. </p>
+                            <a href="/ozel-ambalajlama-ve-paketleme" class="readmore">Daha Fazla<i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -203,32 +354,32 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counterup-01">
                     <div class="content">
-                        <div class="count-wrap"><span class="count-num">2,5007</span>+</div>
-                        <h4 class="title">Successfully Delivered</h4>
+                        <div class="count-wrap"><span class="count-num">+10000</span>+</div>
+                        <h4 class="title">Başarılı Nakliyat</h4>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counterup-01">
                     <div class="content">
-                        <div class="count-wrap"><span class="count-num">34,4771</span>+</div>
-                        <h4 class="title">Worldwide Clients</h4>
+                        <div class="count-wrap"><span class="count-num">+2000</span>+</div>
+                        <h4 class="title">Mutlu Müşteri</h4>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counterup-01">
                     <div class="content">
-                        <div class="count-wrap"><span class="count-num">7,079</span>+</div>
-                        <h4 class="title">Store Clients Products</h4>
+                        <div class="count-wrap"><span class="count-num">+12000</span>+</div>
+                        <h4 class="title">Taşınan Ürün</h4>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="single-counterup-01">
                     <div class="content">
-                        <div class="count-wrap"><span class="count-num">1043</span>+</div>
-                        <h4 class="title">Total Km Reach So Far</h4>
+                        <div class="count-wrap"><span class="count-num">+200</span>+</div>
+                        <h4 class="title">Asansörlü Nakliyat</h4>
                     </div>
                 </div>
             </div>
@@ -244,96 +395,35 @@
                 <div class="we-offer-content">
                     <div class="content">
                         <div class="section-title">
-                            <h2 class="title">we offer best logistic provider for our clients</h2>
-                            <p>Treacherously far so late have immense condescending.We provide the best logistic service on the market, all over the globe in case you have an enquiry, or an urgent question, our support is there.</p>
+                            <h2 class="title">Metropol Express Evden Eve Taşımacılık</h2>
+                            <p>Çeyrek asırı aşan nakliyat hizmetimizi dayandırdığımız en temel olgu kesinlike müşteri memnuniyetini ön planda tutmak, işinde uzman bir ekip ve doğru iş adımlarını uygulamaktır.
+                                Nakliyat süreci, birçok insan için zorlu ve stresli olabilir. Neyse ki, günümüzde evden eve taşımacılığı hizmeti sunan Babadan Oğula yarım asırlık tecrübe Metropol Express Nakliyat bulunmaktadır. Metropol Express Nakliyat, hızlı güvenilir, ve pratik çözümleri sunarak taşımayı kolaylaştırmaktadır.
+
+                            </p>
                         </div>
                         <div class="servicee-area">
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-check-circle"></i>We provide the best logistic service for globally
+                                        <i class="fas fa-check-circle"></i>Pratik Ve Hızlı Çözümler
                                     </a>
                                 </li>
-                                <li><a href="#"><i class="fas fa-check-circle"></i>We know how to make it in time and set the right terms for deliveries.</a></li>
+                                <li><a href="#"><i class="fas fa-check-circle"></i>Alanında Uzman Bir Kadro.</a></li>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-check-circle"></i>All payment methods are acceptable for ordering our services.
+                                        <i class="fas fa-check-circle"></i>Doğru İş Adımları
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="author-details">
-                            <div class="author-meta">
-                                <h4 class="title">Mark Tyson</h4>
-                                <span class="designation">CEO, Logicpress</span>
-                            </div>
-                            <div class="author-sign">
-                                <img src="assets/img/we-offer/sign.png" alt="">
-                            </div>
-                        </div>
+                       <div class="margin-top-10 text-right">
+                           <a class="btn btn-dark" href="/hakkimizda" >Hakkımızda Daha Fazlası</a>
+                       </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="we-offer-img bg-image" style="background-image: url(assets/img/we-offer/01.png);">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="why-choose-use-area bg-image padding-bottom-120" style="background-image: url(assets/img/bg/04.png)">
-    <div class="container">
-        <div class="why-choose-us-wrapper bg-blue padding-top-120 padding-bottom-90">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-sm-11 col-11">
-                    <div class="section-title white b-top desktop-center padding-top-25 margin-bottom-55">
-                        <h2 class="title">
-                            Why choose Additrans
-                        </h2>
-                        <p>Treacherously far so late have immense condescending best logistic service the market all over the world logistic service .</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-why-us-box margin-bottom-30">
-                        <div class="icon">
-                            <i class="flaticon-air-freight"></i>
-                        </div>
-                        <div class="content">
-                            <h4 class="title">
-                                <a href="">Air Fright</a>
-                            </h4>
-                            <p>Treacherously far so late have immense best logistic service the market all over the world logistic service .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-why-us-box margin-bottom-30">
-                        <div class="icon">
-                            <i class="flaticon-delivery-truck"></i>
-                        </div>
-                        <div class="content">
-                            <a href="">
-                                <h4 class="title">road fright</h4>
-                            </a>
-                            <p>Treacherously far so late have immense best logistic service the market all over the world logistic service .</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-why-us-box margin-bottom-20">
-                        <div class="icon">
-                            <i class=" flaticon-box-4"></i>
-                        </div>
-                        <div class="content">
-                            <a href="">
-                                <h4 class="title">warehouse</h4>
-                            </a>
-                            <p>Treacherously far so late have immense best logistic service the market all over the world logistic service .</p>
-                        </div>
-                    </div>
+                <div class="we-offer-img bg-image" style="background-image: url(assets/img/request/01.png);">
                 </div>
             </div>
         </div>
@@ -341,330 +431,40 @@
 </section>
 
 
-<section class="testimonial-area bg-blue bg-image padding-top-110 padding-bottom-120" style="background-image: url(assets/img/bg/05.png)">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="testimonial-carousel-area margin-top-10">
-                    <div class="testimonial-carousel">
-                        <div class="single-testimonial-item">
-                            <div class="content">
-                                <div class="icon">
-                                    <i class="flaticon-quote"></i>
-                                </div>
-                                <h2 class="title">testimonial</h2>
-                                <p class="description">I found myself working in a true partnership that results in an incredible experience, and an end product that is the best for your shipping. </p>
-                                <div class="author-details">
-                                    <div class="author-meta">
-                                        <h4 class="title">
-                                            Andre Robin
-                                        </h4>
-                                        <span class="designation">CTO, art media</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="author-img">
-                                <div class="thumb">
-                                    <img src="assets/img/testimonial/01.png" alt="testimonial">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial-item">
-                            <div class="content">
-                                <div class="icon">
-                                    <i class="flaticon-quote"></i>
-                                </div>
-                                <h2 class="title">testimonial</h2>
-                                <p class="description">I found myself working in a true partnership that results in an incredible experience, and an end product that is the best for your shipping. </p>
-                                <div class="author-details">
-                                    <div class="author-meta">
-                                        <h4 class="title">
-                                            Andre Robin
-                                        </h4>
-                                        <span class="designation">CTO, art media</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="author-img">
-                                <div class="thumb">
-                                    <img src="assets/img/testimonial/01.png" alt="testimonial">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-
-<section class="creative-team bg-image padding-top-120 padding-bottom-100">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12">
-                <div class="section-title b-top desktop-center padding-top-25 margin-bottom-55">
-                    <h2 class="title">
-                        our expert team
-                    </h2>
-                    <p>Treacherously far so late have immense condescending best logistic service the market all over the world logistic service .</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3  col-sm-6 padding-bottom-60">
-                <div class="team-section">
-                    <div class="team-img-cont">
-                        <img src="assets/img/team/01.png" alt="">
-                        <div class="social-link style-01">
-                            <ul>
-                                <li><a href="https://www.facebook.com/codingeek.net"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/codingeeknet"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/codingeek"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-text">
-                        <h4 class="title">Johnny</h4>
-                        <span>Co-Founder</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3  col-sm-6 padding-bottom-60">
-                <div class="team-section">
-                    <div class="team-img-cont">
-                        <img src="assets/img/team/02.png" alt="">
-                        <div class="social-link style-01">
-                            <ul>
-                                <li><a href="https://www.facebook.com/codingeek.net"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/codingeeknet"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/codingeek"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-text">
-                        <h4 class="title">Jhon</h4>
-                        <span>Co-Founder</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3  col-sm-6 padding-bottom-60">
-                <div class="team-section">
-                    <div class="team-img-cont">
-                        <img src="assets/img/team/03.png" alt="">
-                        <div class="social-link style-01">
-                            <ul>
-                                <li><a href="https://www.facebook.com/codingeek.net"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/codingeeknet"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/codingeek"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-text">
-                        <h4 class="title">Sophia Jones</h4>
-                        <span>Founder</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3  col-sm-6 padding-bottom-60">
-                <div class="team-section">
-                    <div class="team-img-cont">
-                        <img src="assets/img/team/04.png" alt="">
-                        <div class="social-link style-01">
-                            <ul>
-                                <li><a href="https://www.facebook.com/codingeek.net"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://www.instagram.com/codingeeknet"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/company/codingeek"><i class="fab fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="team-text">
-                        <h4 class="title">Jackson</h4>
-                        <span>Architecture</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="request-area bg-image padding-bottom-120 padding-top-120" style="background-image: url(assets/img/bg/06.png)">
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-lg-6">
-                <div class="left-content-area">
-                    <div class="request-img" style="background-image: url(assets/img/request/01.png);"></div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="righti-content-area">
-                    <div class="request-page-form-wrap">
-                        <div class="section-title white">
-                            <h4 class="title">Request a free quote</h4>
-                        </div>
-                        <form action="request.html" class="request-page-form" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <select id="f-type">
-                                        <option value="volvo">Fright Type</option>
-                                        <option value="saab">Saab</option>
-                                        <option value="opel">Opel</option>
-                                        <option value="audi">Audi</option>
-                                    </select>
-                                    <div class="select-arrow"></div>
-                                    <div class="select-arrow"></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" class="form-control" required="" aria-required="true">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" name="city" placeholder="City of Departure" class="form-control" required="" aria-required="true">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" name="weight" placeholder="Total Weight" class="form-control" required="" aria-required="true">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" name="city" placeholder="Deliver City" class="form-control" required="" aria-required="true">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" name="time" placeholder="Time" class="form-control" required="" aria-required="true">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="submit" value="Submit Request" class="submit-btn">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none" id="successAlert">
+    <div class="alert alert-success" role="alert">
+        Tebrikler! Mesajınız alındı.En kısa sürede yanıt verilektir.
     </div>
 </div>
-
-<section class="blog-area padding-top-120 padding-bottom-120">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section-title b-top desktop-center padding-top-25 margin-bottom-55">
-                    <h3 class="title">our Latest news</h3>
-                    <p>Treacherously far so late have immense condescending best logistic service the market all over the world logistic service .</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="blog-grid-carosel-wrapper">
-                    <div class="blog-grid-carousel">
-                        <div class="single-blog-grid-01">
-                            <div class="thumb">
-                                <img src="assets/img/blog/01.png" alt="blog image">
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li class="date"><a href="#">DECEMBER 2020</a></li>
-                                    <li><a href="#">BY Admin</a></li>
-                                </ul>
-                                <h4 class="title"><a href="#">Sustainable development is the creed that underpins</a></h4>
-                            </div>
-                            <div class="blog-bottom">
-                                <a href="#" class="msg"><span><i class="flaticon-speech-bubble"></i></span>Comment (04)</a>
-                                <a href="#" class="read-btn">Read More<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
-                            </div>
-                        </div>
-                        <div class="single-blog-grid-01">
-                            <div class="thumb">
-                                <img src="assets/img/blog/02.png" alt="blog image">
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li class="date"><a href="#">DECEMBER 2020</a></li>
-                                    <li><a href="#">BY Admin</a></li>
-                                </ul>
-                                <h4 class="title"><a href="#">Sustainable development is the creed that downpins</a></h4>
-                            </div>
-                            <div class="blog-bottom">
-                                <a href="#" class="msg"><span><i class="flaticon-speech-bubble"></i></span>Comment (04)</a>
-                                <a href="#" class="read-btn">Read More<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
-                            </div>
-                        </div>
-                        <div class="single-blog-grid-01">
-                            <div class="thumb">
-                                <img src="assets/img/blog/03.png" alt="blog image">
-                            </div>
-                            <div class="content">
-                                <ul class="post-meta">
-                                    <li class="date"><a href="#">DECEMBER 2020</a></li>
-                                    <li><a href="#">BY Admin</a></li>
-                                </ul>
-                                <h4 class="title"><a href="#">Vast experience in power evacuation curement</a></h4>
-                            </div>
-                            <div class="blog-bottom">
-                                <a href="#" class="msg"><span><i class="flaticon-speech-bubble"></i></span>Comment (04)</a>
-                                <a href="#" class="read-btn">Read More<span><i class="fas fa-long-arrow-alt-right"></i></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<div class="client-section bg-liteblue padding-bottom-165">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="client-area">
-                    <div class="client-active-area">
-                        <div class="single-brand">
-                            <a href="#"><img src="assets/img/client/01.png" alt=""></a>
-                        </div>
-                        <div class="single-brand">
-                            <a href="#"><img src="assets/img/client/02.png" alt=""></a>
-                        </div>
-                        <div class="single-brand">
-                            <a href="#"><img src="assets/img/client/03.png" alt=""></a>
-                        </div>
-                        <div class="single-brand">
-                            <a href="#"><img src="assets/img/client/04.png" alt=""></a>
-                        </div>
-                        <div class="single-brand">
-                            <a href="#"><img src="assets/img/client/01.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none" id="errorAlert">
+    <div class="alert alert-danger" role="alert">
+        Hata mesajınız gönderilemedi.Lütfen Sayfayı yenileyip tekrar deneyin!
     </div>
 </div>
+@section Scripts{
 
-<div class="call-to-action-area bg-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="call-to-action-inner bg-image">
-                    <div class="icon">
-                        <i class="flaticon-24-hours"></i>
-                    </div>
-                    <div class="content">
-                        <h2 class="title">Call us for any inquairy we are open 24/7</h2>
-                        <span class="subtitle">786-344-9868</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    <script>
+        function SendServiceRequest() {
+            var model = $('#serviceRequestForm').serializeArray();
+            $.ajax({
+                url: '/Home/SendServiceRequest',
+                data: model,
+                dataType: 'json',
+                success: function (res) {
+
+                    if (res == true) {
+                        var alert = $('#successAlert').html();
+                        $(alert).css({ "display": "block" });
+                        $('#serviceRequestSection').empty().html(alert);
+                    }
+                    else {
+                        var alert = $('#errorAlert').html();
+                        $(alert).css({ "display": "block" });
+                        $('#serviceRequestSection').empty().html(alert);
+                    }
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,581 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\metropolexpress.bundle.scp.css",
+      "PackagePath": "staticwebassets\\metropolexpress.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon-1.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400-1.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400-1.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900-1.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900-1.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\06.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\06.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\07.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\07.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\08.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\08.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\09.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\09.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog-single\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-single\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog-single\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-single\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog-single\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog-single\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\breadcrumb\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\call-to-action\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\call-to-action\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\dot.png",
+      "PackagePath": "staticwebassets\\assets\\img\\dot.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\header-slider\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\header-slider\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\header-slider\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\header-slider\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\header-slider\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\header-slider\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\metropol-expres-ana-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\metropol-expres-ana-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\metropol-express-evden-eve-tasimacilik-firmalari.png",
+      "PackagePath": "staticwebassets\\assets\\img\\metropol-express-evden-eve-tasimacilik-firmalari.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\metropol-express-sehirler-arasi-tasimacilik.png",
+      "PackagePath": "staticwebassets\\assets\\img\\metropol-express-sehirler-arasi-tasimacilik.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\metropol-express-sigortali-tasimacilik.png",
+      "PackagePath": "staticwebassets\\assets\\img\\metropol-express-sigortali-tasimacilik.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\request\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\request\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\service\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\we-provide\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\we-provide\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\we-provide\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\we-provide\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\we-provide\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\we-provide\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\why-us\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\why-us\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\goolge-map-activate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\goolge-map-activate.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.metropolexpress.props",
+      "PackagePath": "build\\metropolexpress.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.metropolexpress.props",
+      "PackagePath": "buildMultiTargeting\\metropolexpress.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.metropolexpress.props",
+      "PackagePath": "buildTransitive\\metropolexpress.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.metropolexpress.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

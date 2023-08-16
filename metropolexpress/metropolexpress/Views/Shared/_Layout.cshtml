@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Metropol Express Evden Eve, Şehirler Arası Nakliyat Hizmeti">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <meta name="keywords" content="@(CompanyParams.MetaTags)">
     <meta name="author" content="@(CompanyParams.CompanyName)">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Metropol Express || Evden Eve şehirler Arası Nakliyat</title>
-
+    @RenderSection("Title", required: false)
+    
+    @section Title{
+        <title>
+            Metropol Express || Metropol Express Evden Eve Taşımacılık
+        </title>
+    }
     <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
 
     <link rel="stylesheet" href="~/assets/css/animate.css">
@@ -32,14 +43,6 @@
 <body>
 
     <div class="body-overlay" id="body-overlay"></div>
-    <div class="search-popup" id="search-popup">
-        <form action="index.html" class="search-form">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search.....">
-            </div>
-            <button class="close-btn border-none"><i class="fas fa-times"></i></button>
-        </form>
-    </div>
     <div class="header-style-01">
         <div class="topbar-area style-01">
             <div class="container">
@@ -52,11 +55,12 @@
                                     <li><a href="/cdn-cgi/l/email-protection#2e474048416e6f5a5a415c49434f4742004d4143"><i class="flaticon-mail"></i> <span class="__cf_email__" data-cfemail="f29b9c949db2b386869d80959f939b9edc919d9f">@CompanyParams.Email</span></a></li>
                                     <li>
                                         <a href="/cdn-cgi/l/email-protection#4f262129200f0e3b3b203d28222e2623612c2022">
-                                            <i class="flaticon-clock"></i> Ankara
-                                            Antalya
+                                            <i class="flaticon-map"></i> 
                                             İstanbul
+                                            Ankara
                                             İzmir
                                             Bursa
+                                            Antalya
                                         </a>
                                     </li>
                                 </ul>
@@ -64,11 +68,10 @@
                             <div class="right-contnet">
                                 <div class="social-link">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="@CompanyParams.Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="@CompanyParams.Instagram"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="@CompanyParams.Twitter"><i class="fab fa-twitter"></i></a></li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -78,12 +81,48 @@
             </div>
         </div>
 
+       @* <nav class="navbar navbar-area has-topbar navbar-expand-lg nav-style-02">
+            <div class="container nav-container">
+                <div class="responsive-mobile-menu">
+                    <div class="logo-wrapper">
+                        <a href="/" class="logo">
+                            <img src="~/assets/img/metropol-expres-ana-logo.png" alt="metropol-express-ana-logo">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_smain_menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
+                    <ul class="navbar-nav">
+                        <li >
+                            <a href="/">Metropol Express</a>
+                        </li>
+                        <li><a href="hakkimizda">Hakkımızda</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Hizmetler</a>
+                            <ul class="sub-menu">
+                                <li><a href="/asansorlu-tasima">Asansörlü Taşıma</a></li>
+                                <li><a href="/esya-depolama">Esya Depolama</a></li>
+                                <li><a href="/evden-eve-tasima">Evden Eve Taşıma</a></li>
+                                <li><a href="/kurumsal-tasima">Kurumsal Taşıma</a></li>
+                                <li><a href="/ozel-ambalajlama-ve-paketleme">Özel Ambalajlama Ve Paketleme</a></li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="/galeri">Galeri</a>
+                        </li>
+                        <li><a href="/iletisim">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>*@
         <nav class="navbar navbar-area has-topbar navbar-expand-lg nav-style-02">
             <div class="container nav-container">
                 <div class="responsive-mobile-menu">
                     <div class="logo-wrapper">
                         <a href="index.html" class="logo">
-                            <img src="~/assets/img/logo.png" alt="">
+                            <img src="assets/img/metropol-expres-ana-logo.png" alt="">
                         </a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,53 +131,48 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
                     <ul class="navbar-nav">
-                        <li class="menu-item-has-children current-menu-item">
-                            <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 01</a></li>
-                                <li><a href="index-2.html">Home 02</a></li>
-                                <li><a href="index-3.html">Home 03</a></li>
-                                <li><a href="index-4.html">Home 04</a></li>
-                            </ul>
+                        <li>
+                            <a href="/">Metropol Express</a>
                         </li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="hakkimizda">Hakkımızda</a></li>
                         <li class="menu-item-has-children">
-                            <a href="#">Services</a>
+                            <a href="#">Hizmetler</a>
                             <ul class="sub-menu">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-details.html">Services Details</a></li>
+                                <li><a href="/asansorlu-tasima">Asansörlü Taşıma</a></li>
+                                <li><a href="/esya-depolama">Esya Depolama</a></li>
+                                <li><a href="/evden-eve-tasima">Evden Eve Taşıma</a></li>
+                                <li><a href="/kurumsal-tasima">Kurumsal Taşıma</a></li>
+                                <li><a href="/ozel-ambalajlama-ve-paketleme">Özel Ambalajlama Ve Paketleme</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
+                        <li>
+                            <a href="/galeri">Galeri</a>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="/iletisim">İLETİŞİM</a></li>
                     </ul>
                 </div>
-                <div class="nav-right-content">
-                    <div class="icon-part">
-                        <ul>
-                            <li id="search">
-                                <a href="#">
-                                    <i class="flaticon-search-1
-                                "></i>
-                                </a>
-                            </li>
-                            <li class="cart"><a href="#"><i class="flaticon-shopping-cart"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="btn-wrapper">
-                        <a href="#" class="request-btn">Request a quote</a>
-                    </div>
-                </div>
+              
             </div>
         </nav>
 @RenderBody()
 
+        <div class="call-to-action-area bg-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="call-to-action-inner bg-image">
+                            <div class="icon">
+                                <i class="flaticon-phone"></i>
+                            </div>
+                            <div class="content">
+                                <h2 class="title">İletişim Numaramız:</h2>
+                                <span class="subtitle">@CompanyParams.Phone</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <footer class="footer-area">
@@ -148,52 +182,52 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-widget widget">
                                 <div class="about_us_widget">
-                                    <a href="index.html" class="footer-logo"> <img src="~/assets/img/logo.png" alt="footer logo"></a>
+                                    <a href="/" class="footer-logo"> <img src="~/assets/img/metropol-expres-ana-logo.png" alt="metropol-expres-ana-logo"></a>
                                     <p>
-                                        We are able to guarantee a very high level of satisfaction for our clients. Pharetra libero non facilisis to your company & family.
+                                        Bir Çeyrek Asırlık Hikayemiz: Nakliyatın İncelikleriyle Dokunan Yolculuk
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-title">Our services</h4>
+                                <h4 class="widget-title">Hizmetlerimiz</h4>
                                 <ul>
-                                    <li><a href="#">Warhouse</a></li>
-                                    <li><a href="#">Air Fright Soultions for all</a></li>
-                                    <li><a href="#">Sea Fright solutions & Catering</a></li>
-                                    <li><a href="#">Storage</a></li>
+                                        <li><a href="/asansorlu-tasima">Asansörlü Taşıma</a></li>
+                                        <li><a href="/esya-depolama">Esya Depolama</a></li>
+                                        <li><a href="/evden-eve-tasima">Evden Eve Taşıma</a></li>
+                                        <li><a href="/kurumsal-tasima">Kurumsal Taşıma</a></li>
+                                        <li><a href="/ozel-ambalajlama-ve-paketleme">Özel Ambalajlama Ve Paketleme</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-widget widget widget_nav_menu">
-                                <h4 class="widget-title">our support</h4>
+                                <h4 class="widget-title">Hızlı Ulaşım</h4>
                                 <ul>
-                                    <li><a href="#">Privacy & Policy</a></li>
-                                    <li><a href="#">FAQS</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="/hakkimizda">Hakkımızda</a></li>
+                                    <li><a href="/galeri">Galeri</a></li>
+                                    <li><a href="/iletisim">İletişim</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-widget widget ">
-                                <h4 class="widget-title">Contact us</h4>
+                                <h4 class="widget-title">İletişime Geçin</h4>
                                 <ul class="contact_info_list">
                                     <li class="single-info-item">
                                         <div class="details">
-                                            Fifth Avenue , Broadway, New York
+                                            @CompanyParams.Address
                                         </div>
                                     </li>
                                     <li class="single-info-item">
                                         <div class="details">
-                                            +3 123 456 789
+                                            <a href="tel:@CompanyParams.PhoneIntagrated"> @CompanyParams.Phone</a>
                                         </div>
                                     </li>
                                     <li class="single-info-item">
                                         <div class="details">
-                                            <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2c45424a436c5543595e414d4540024f4341">[email&#160;protected]</a>
+                                            <a href="mailto:@CompanyParams.Email">@CompanyParams.Email</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -207,7 +241,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="copyright-area-inner">
-                                &copy; Copyright 2020 Additrans All rights reserved.
+                                &copy; Copyright 2023 @CompanyParams.CompanyName Tüm hakları Saklıdır
                             </div>
                         </div>
                     </div>
@@ -219,7 +253,7 @@
         <div class="back-to-top">
             <span class="back-top"><i class="fa fa-angle-up"></i></span>
         </div>
-
+        <a class="btn btn-success whatsapp-btn" target="_blank" href="@CompanyParams.WhatsAppIntagrated"> <span>Whats App</span></a>
 
         <div class="preloader" id="preloader">
             <div class="preloader-inner">
@@ -235,7 +269,8 @@
         </div>
 
 
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="~/assets/js/jquery-2.2.4.min.js"></script>
+        
+        <script src="~/assets/js/jquery-2.2.4.min.js"></script>
 
         <script src="~/assets/js/popper.min.js"></script>
 
@@ -256,5 +291,7 @@
         <script src="~/assets/js/isotope.pkgd.min.js"></script>
 
         <script src="~/assets/js/main.js"></script>
-</body>
+        @RenderSection("Scripts", required: false)
+    </div>
+    </body>
 </html>
