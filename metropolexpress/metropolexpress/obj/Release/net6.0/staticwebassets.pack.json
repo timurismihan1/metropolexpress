@@ -181,18 +181,6 @@
       "PackagePath": "staticwebassets\\assets\\img\\blog-single\\03.png"
     },
     {
-      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\01.png",
-      "PackagePath": "staticwebassets\\assets\\img\\blog\\01.png"
-    },
-    {
-      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\02.png",
-      "PackagePath": "staticwebassets\\assets\\img\\blog\\02.png"
-    },
-    {
-      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog\\03.png",
-      "PackagePath": "staticwebassets\\assets\\img\\blog\\03.png"
-    },
-    {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\breadcrumb\\01.png",
       "PackagePath": "staticwebassets\\assets\\img\\breadcrumb\\01.png"
     },
@@ -245,16 +233,8 @@
       "PackagePath": "staticwebassets\\assets\\img\\service\\01.png"
     },
     {
-      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\02.png",
-      "PackagePath": "staticwebassets\\assets\\img\\service\\02.png"
-    },
-    {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\03.png",
       "PackagePath": "staticwebassets\\assets\\img\\service\\03.png"
-    },
-    {
-      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\service\\05.png",
-      "PackagePath": "staticwebassets\\assets\\img\\service\\05.png"
     },
     {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\we-provide\\01.png",

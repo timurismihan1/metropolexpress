@@ -8,6 +8,8 @@
 		public static string PhoneIntagrated = "+905349142807";
 		public static string Phone2 = "+90532 499 73 16";
 		public static string Phone2Intagrated = "+905324997316";
+		public static string Phone3 = "+90532 546 58 55";
+		public static string Phone3Intagrated = "+905325465855";
 
         public static string WhatsApp = "+90534 914 28 07";
 		public static string WhatsAppIntagrated = "https://api.whatsapp.com/send/?phone=905349142807&text&type=phone_number&app_absent=0";
