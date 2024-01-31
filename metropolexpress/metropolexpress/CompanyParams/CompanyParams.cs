@@ -4,15 +4,11 @@
 	{
 		public static string CompanyName = "Metropol Express Evden Eve Nakliyat";
 		public static string Address = "İstanbul, Ankara, İzmir, Bursa, Antalya ";
-		public static string Phone = "+90534 914 28 07";
-		public static string PhoneIntagrated = "+905349142807";
-		public static string Phone2 = "+90532 499 73 16";
-		public static string Phone2Intagrated = "+905324997316";
-		public static string Phone3 = "+90532 546 58 55";
+        public static string Address2 = "Demirtaş, Sakarya Mah. 21.Dere Sk. No14 Daire 3B Bursa";
+        public static string Phone3 = "+90532 546 58 55";
 		public static string Phone3Intagrated = "+905325465855";
 
-        public static string WhatsApp = "+90534 914 28 07";
-		public static string WhatsAppIntagrated = "https://api.whatsapp.com/send/?phone=905349142807&text&type=phone_number&app_absent=0";
+		public static string WhatsAppIntagrated = "https://api.whatsapp.com/send/?phone=905325465855&text&type=phone_number&app_absent=0";
 		public static string Email = "info@metropolexpress.com.tr";
 		public static string Instagram = "https://www.instagram.com/metropol.express/?igshid=MzNlNGNkZWQ4Mg%3D%3D";
 		public static string Facebook = "https://www.facebook.com/profile.php?id=100094584401630&mibextid=ZbWKwL";

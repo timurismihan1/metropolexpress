@@ -1,4 +1,3 @@
-C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Debug\net6.0\metropolexpress.csproj.AssemblyReference.cache
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Debug\net6.0\metropolexpress.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Debug\net6.0\metropolexpress.AssemblyInfoInputs.cache
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Debug\net6.0\metropolexpress.AssemblyInfo.cs

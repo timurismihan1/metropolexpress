@@ -169,6 +169,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\bg\\09.png"
     },
     {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\metropol-express-kurumsal-tasima.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\metropol-express-kurumsal-tasima.png"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\bg\\metropol-express-sehirlerarasi-nakliyat.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\metropol-express-sehirlerarasi-nakliyat.png"
+    },
+    {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\blog-single\\01.png",
       "PackagePath": "staticwebassets\\assets\\img\\blog-single\\01.png"
     },
@@ -195,6 +203,42 @@
     {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\gallery\\metropol-express-galeri-görsel-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\metropol-express-galeri-görsel-9.jpg"
     },
     {
       "Id": "C:\\Users\\timur\\source\\repos\\metropolexpress\\metropolexpress\\metropolexpress\\wwwroot\\assets\\img\\header-slider\\01.png",
