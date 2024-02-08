@@ -2849,8 +2849,7 @@ ul.wp-block-latest-posts.alignwide, ul.wp-block-latest-posts.alignfull, ul.wp-bl
         width: 100%;
         z-index: 2;
         background-color: transparent;
-        min-height: 55px;
-        border-bottom: 1px solid #726c94
+        min-height: 55px;        
     }
 
         .topbar-area.style-01 .info-items li {

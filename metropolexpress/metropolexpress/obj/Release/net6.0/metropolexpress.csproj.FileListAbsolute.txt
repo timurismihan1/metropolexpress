@@ -6,7 +6,6 @@ C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\bin\
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\bin\Release\net6.0\metropolexpress.runtimeconfig.json
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\bin\Release\net6.0\metropolexpress.dll
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\bin\Release\net6.0\metropolexpress.pdb
-C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\metropolexpress.csproj.AssemblyReference.cache
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\metropolexpress.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\metropolexpress.AssemblyInfoInputs.cache
 C:\Users\timur\source\repos\metropolexpress\metropolexpress\metropolexpress\obj\Release\net6.0\metropolexpress.AssemblyInfo.cs
